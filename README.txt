@@ -24,7 +24,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 References:
-[1] Y. Voet, Preconditioning techniques for generalized Sylvester matrix equations
+[1] Y. Voet. Preconditioning techniques for generalized Sylvester matrix equations
 [2] R. Vázquez. A new design for the implementation of isogeometric analysis in Octave and Matlab: Geopdes 3.0. Computers & Mathematics with Applications, 72(3):523–554, 2016.
 [3] Z. Bai and D. Skoogh. A projection method for model reduction of bilinear dynamical systems. Linear algebra and its applications, 415(2-3):406–425, 2006.
 [4] P. Benner and T. Breiten. Low rank methods for a class of generalized Lyapunov equations and related issues. Numerische Mathematik, 124(3):441–470, 2013.
