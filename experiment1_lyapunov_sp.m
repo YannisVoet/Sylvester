@@ -104,10 +104,10 @@ linespec_kinvq={'s', '*', 'o'};
 figure
 semilogy(res_unprec, '-xk','DisplayName', 'GMRES')
 hold on; grid on;
-semilogy(res_prec_nkp, 'Marker', linespec_nkp{1}, 'Color', colors_nkp{1}, 'DisplayName', 'NKP prec, q=1')
+semilogy(res_prec_nkp, 'Marker', linespec_nkp{1}, 'Color', colors_nkp{1}, 'DisplayName', 'NKP(1)')
 
 for k=1:b
-    semilogy(res_prec_kinvq{k}, 'Marker', linespec_kinvq{k}, 'Color', colors_kinvq{k}, 'DisplayName', ['KINV prec, q=' num2str(k)])
+    semilogy(res_prec_kinvq{k}, 'Marker', linespec_kinvq{k}, 'Color', colors_kinvq{k}, 'DisplayName', ['KINV(' num2str(k) ')'])
 end
 
 legend show
